@@ -7,13 +7,13 @@ xhr.onload = function() {
     var newContent = '';
     for (var i = 0; i < responseObject.courseData.length; i++) { // Loop through object
       newContent += '<div class="exams">';
-      newContent += '<h4>' + responseObject.courseData[i].exam + '</h4> ';
-      newContent += '<ol>';
+      newContent += '<u><h4>' + responseObject.courseData[i].exam + '</h4></u> ';
+      newContent += '<oul>';
       newContent += '<li>' + responseObject.courseData[i].twoexam + '</li>';
       newContent += '<li>' + responseObject.courseData[i].noncumul + '</li>';
       newContent += '<li>' + responseObject.courseData[i].proctored + '</li>';
       newContent += '<li>' + responseObject.courseData[i].devices + '</li>';
-      newContent += '</ol>';
+      newContent += '</ul>';
       newContent += '</div>';
     }
 
