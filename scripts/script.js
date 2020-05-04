@@ -9,10 +9,10 @@ xhr.onload = function() {
       newContent += '<div class="exams">';
       newContent += '<h4>' + responseObject.courseData[i].exam + '</h4> ';
       newContent += '<ol>';
-      newContent += '<li>' + responseObject.events[i].twoexam + '</li>';
-      newContent += '<li>' + responseObject.events[i].noncumul + '</li>';
-      newContent += '<li>' + responseObject.events[i].proctored + '</li>';
-      newContent += '<li>' + responseObject.events[i].devices + '</li>';
+      newContent += '<li>' + responseObject.courseData[i].twoexam + '</li>';
+      newContent += '<li>' + responseObject.courseData[i].noncumul + '</li>';
+      newContent += '<li>' + responseObject.courseData[i].proctored + '</li>';
+      newContent += '<li>' + responseObject.courseData[i].devices + '</li>';
       newContent += '</ol>';
       newContent += '</div>';
     }
