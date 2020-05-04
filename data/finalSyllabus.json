@@ -1,0 +1,13 @@
+{
+    "courseData": [
+        {
+            "exam": "Examinations",
+            "twoexam": "Two examinations, one Midterm and one Final, together (with course attendance) count for
+            25% of the overall course grade",
+            "noncumul": "Exams are non-cumulative",
+            "proctored": "Exams are in-class in a proctored testing environment and without external resources",
+            "devices": "Use of electronic devices during exams is strictly prohibited and all devices and materials
+            should not be in view"
+        }
+    ]
+}
