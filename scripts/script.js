@@ -23,5 +23,5 @@ xhr.onload = function() {
   //}
 };
 
-xhr.open('GET', './data/finalSyllabus.json', true);        // Prepare the request
+xhr.open('GET', 'https://desya42.github.io/folkertsFinal/data/finalSyllabus.json', true);        // Prepare the request
 xhr.send(null);                                 // Send the request
