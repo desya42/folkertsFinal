@@ -8,7 +8,7 @@ xhr.onload = function() {
     for (var i = 0; i < responseObject.courseData.length; i++) { // Loop through object
       newContent += '<div class="exams">';
       newContent += '<u><h4>' + responseObject.courseData[i].exam + '</h4></u> ';
-      newContent += '<oul>';
+      newContent += '<ul>';
       newContent += '<li>' + responseObject.courseData[i].twoexam + '</li>';
       newContent += '<li>' + responseObject.courseData[i].noncumul + '</li>';
       newContent += '<li>' + responseObject.courseData[i].proctored + '</li>';
